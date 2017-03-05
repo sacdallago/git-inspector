@@ -1,5 +1,4 @@
 repositories/*
-html/*
 
 !repositories/readme.md
 !html/readme.md
