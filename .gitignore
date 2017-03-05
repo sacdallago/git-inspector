@@ -3,3 +3,5 @@ html/*
 
 !repositories/readme.md
 !html/readme.md
+
+.DS_Store
