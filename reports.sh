@@ -12,7 +12,7 @@ for DIRECTORY in *; do
         cd $DIRECTORY
         git pull
         cd ..
-        python $CURRENTFOLDER/inspector/gitinspector/gitinspector.py $DIRECTORY -HTlrm -F html -f html,js,json,css,csv,ts > $OUTPUTFOLDER/$DIRECTORY.html
+        python $CURRENTFOLDER/inspector/gitinspector/gitinspector.py $DIRECTORY -HTlrm -F html -f html,js,json,css,csv,ts,jsx > $OUTPUTFOLDER/$DIRECTORY.html
     fi
 done
 
